@@ -1,21 +1,13 @@
 <template>
-    <div> {{ name }} </div>
+    <div>{{ name }}</div>
 </template>
 
 <script>
-
-    export default{
-        data(){
-            return {
-                name:"Olamide"
-            }
-                
-            
+export default {
+    data(){
+        return {
+            name:"Olamide"
         }
     }
-
+}
 </script>
-
-<style>
-
-</style>
